@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+            margin: 5px;
+            color: #2e2e42;
+        }
+      .left, .center, .right {
+            float: left;
+            line-height: 490px;
+       }
+
+        .left {
+            width: 20%;
+            height: 500px;
+        }
+
+        .center {
+            width: 60%;
+            height: 500px;
+        }
+
+        .right {
+            width: 20%;
+            height: 500px;
+
+        }
+
+        .aba {
+            clear: both;
+        }
+
+        .ab {
+            border: none;
+            /*margin: 0 auto;*/
+            /*padding: ;*/
+            display: flex;
+            justify-content: center;
+            /*align-items: center;*/
+        }
+    </style>
+</head>
+<body>
+<div style="border: 4px solid black">
+    <div>top</div>
+    <div>nav</div>
+    <div class="ab">
+        <div class="left">left</div>
+        <div class="center">center</div>
+        <div class="right">right</div>
+    </div>
+    <p class="aba"></p>
+    <div>footer</div>
+</div>
+
+</body>
+</html>
